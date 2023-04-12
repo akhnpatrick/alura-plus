@@ -9,7 +9,7 @@ Página de assinatura do Combo Alura+, com exemplificações da responsividade d
 </p>
 
 <h2>Para acessar o projeto, clique no link disponível abaixo:</h2>
-<a href="https://alura-plus-rho-six.vercel.app/" target="_blank">
+<p><a href="https://alura-plus-rho-six.vercel.app/" target="_blank"></p>
 
 <h2>Tecnologias utilizadas</h2>
 <p>HTML 5</p>
