@@ -2,8 +2,6 @@
 
 ![Logo da Alura Cursos Online, junto há frase: "Transformando vidas e carreiras"](https://github.com/akhnpatrick/alura-plus/blob/main/img/alura-img.png)
 
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
-
 > :hammer: Projeto Finalizado :hammer:
 
 <p>
