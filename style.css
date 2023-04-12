@@ -1,0 +1,150 @@
+:root {
+    --color-title: #FFFFFF;
+    --color-secondary: #C0C0C0;
+    --color-tertiary: #167BF7;
+    --background-color: #00030C;
+    --font-main: 'Inter', sans-serif;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--color-title);
+    font-family: var(--font-main);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+.main {
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__button {
+    display: block;
+    background-color: var(--color-tertiary);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--color-title);
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.container__button_secundary {
+    background-color: transparent;
+    border: 2px solid var(--color-title);
+}
+
+.container__notice {
+    font-size: 12px;
+    color: var(--color-secondary);
+}
+
+.container__title {
+    font: 28px;
+    font-weight: 700;
+}
+
+.container__img {
+    margin: 1em 0 2em 0;
+}
+
+.container__box {
+    margin: 0 6em;
+}
+
+.secundary__img {
+    width: 80%;
+}
+
+.secundary {
+    align-items: center;
+    margin: 0 8em;
+}
+
+.description__title {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--color-title);
+    margin-bottom: 0.1em;
+}
+
+.description__text {
+    color: var(--color-secondary);
+    font-size: 16px;
+}
+
+.container__button_combo {
+    display: inline-block;
+    margin: 1em;
+}
+
+.container__description {
+    padding: 2em;
+}
+
+.devices {
+    text-align: center;
+    margin-top: 5em;
+}
+
+.devices__list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.devices__title {
+    font-size: 48px;
+    color: var(--color-title);
+}
+
+.list__item {
+    font-size: 32px;
+    color: var(--color-title);
+}
+
+.footer {
+   text-align: center;
+   margin: 13em 10em 5em;
+}
+
+.footer__list {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    padding: 2.5em 0;
+    list-style: none;
+    white-space: nowrap;
+}
+
+.list__text {
+    text-decoration: none;
+    color: var(--color-title);
+    font-size: 16px;
+}
+
+.footer__text {
+    padding: 0.5em;
+    color: var(--color-secondary);
+}
+
+.list__links a:hover {
+    color: #1c58a1;
+    transition: 0.3s;
+}
+
