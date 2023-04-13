@@ -120,27 +120,26 @@ body {
 
 .footer {
    text-align: center;
-   margin: 13em 10em 5em;
+   margin: 5em 3em;
 }
 
 .footer__list {
     display: flex;
     justify-content: center;
-    gap: 1em;
-    padding: 2.5em 0;
-    list-style: none;
-    white-space: nowrap;
+    list-style-type: none;
+    margin-top: 1em;
 }
 
 .list__text {
     text-decoration: none;
     color: var(--color-title);
-    font-size: 16px;
+    margin-left: 1em;
 }
 
 .footer__text {
-    padding: 0.5em;
+    margin: 1em 0;
     color: var(--color-secondary);
+    font-size: 14px;
 }
 
 .list__links a:hover {
